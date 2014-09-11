@@ -8,6 +8,10 @@ design scheme.
 
 
 ### Changelog
+**09/11/2014**
+* Removed Bones related CSS
+* Cleaned up code a bit
+
 **09/10/2014**
 * Initial commit
 
