@@ -49,10 +49,7 @@ p code, code {
     padding			: 0.0625em 0.25em;
 }
 
-a { 
-	font-weight		: bold; 
-	text-decoration	: none; 
-}
+a { text-decoration: none; }
 
 pre, p pre {
 	font-family	: monospace;
@@ -85,9 +82,10 @@ html.themed {
 .themed pre,.themed p pre, .themed p code,.themed code { font-family: "Inconsolata", monospace; }
 .themed p code, .themed code { background-color: rgb(255,168,168); }
 
-.themed a { 
-	color: rgb(131,4,4);
-	cursor: pointer; 
+.themed a {
+	font-weight	: bold;
+	color 		: rgb(131,4,4);
+	cursor		: pointer; 
 }
 .themed a:hover { 
 	position: relative; 
