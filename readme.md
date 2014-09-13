@@ -8,6 +8,10 @@ design scheme.
 
 
 ### Changelog
+**09/12/2014**
+* Removed Bones as these two are totally seperate, and Soma will showcase the two together
+* Cleaned up CSS, adhering to the Google HTML/CSS style guide
+
 **09/11/2014**
 * Removed Bones related CSS
 * Cleaned up code a bit
