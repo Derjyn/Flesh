@@ -1,7 +1,7 @@
 /*
 **
 ** FILE:        flesh.css
-** UPDATED:     09/23/2014
+** UPDATED:     10/09/2014
 ** DESCRIPTION: Flesh - A Lean Visual Framework
 ** CREDITS:     Nathan Harris aka Derjyn
 */
@@ -10,9 +10,10 @@
 /*************************************************************************************************/
 /*** TYPOGRAPHY **********************************************************************************/
 
-html {
-  font-family: serif;
-  font-size: 16px;
+body {
+	color: rgb(131,4,4);	
+	font-family: serif;
+  font-size: 16px; 
 }
 
 h1,h2,h3,h4,h5,h6 { font-family: sans-serif; }
@@ -41,56 +42,39 @@ ul li {
   margin-left: 1.5em;
 }
 
-p code, code {
-  font-family: monospace;
+code, pre { font-family: monospace;	}
+code, p code {
+	background-color: rgb(245,118,118);
   margin-right: 0.125em;
   overflow-x: auto; 
   padding : 0.0625em 0.25em;
   white-space: pre; 
 }
-
-a { text-decoration: none; }
-
 pre, p pre {
-  font-family: monospace;
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
+a {
+	color: rgb(131,4,4);
+  cursor: pointer;  
+  font-weight: bold;
+	text-decoration: none; 
+}
+a:hover {
+	color: white;
+}
+
 
 /*************************************************************************************************/
 /*** THEME ***************************************************************************************/
-/*** This is what you will likely want to modify - feel free to copy/past and develop your *******/
-/*** own theme, then change the class on the html declaration in your HTML file to "themed" ******/
+/*** This is what you will likely want to modify  ************************************************/
 
-/***************/
-/* FLESH THEME */
-/***************/
-html.themed {
-  color: rgb(131,4,4);  
-  font-family: "Laila", serif;
-}
-
-.themed body    { background-color: rgb(131,4,4); }
-.themed .tendon { background-color: rgb(255,135,135); }
-.themed .muscle { background-color: rgb(255,168,168); }
-.themed .skin   { background-color: rgb(245,118,118); }
-
-.themed h1,h2,h3,h4,h5,h6 { font-family: "Source Sans Pro", sans-serif; }
-
-.themed pre,.themed p pre, .themed p code,.themed code { font-family: "Inconsolata", monospace; }
-.themed p code, .themed code { background-color: rgb(245,118,118); }
-
-.themed a {
-  color: rgb(131,4,4);
-  cursor: pointer;  
-  font-weight: bold; 
-}
-.themed a:hover { 
-  position: relative; 
-  top: -0.125em;
-}
+body 		{ background-color: rgb(131,4,4); }
+.tendon { background-color: rgb(255,135,135); }
+.muscle { background-color: rgb(255,168,168); }
+.skin   { background-color: rgb(245,118,118); }
 
 
 /*************************************************************************************************/
