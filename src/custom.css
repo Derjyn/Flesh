@@ -1,7 +1,7 @@
 /*
 **
 ** FILE:        custom.css
-** UPDATED:     09/23/2014
+** UPDATED:     11/17/2014
 ** DESCRIPTION: Custom styling and overrides for Flesh
 ** CREDITS:     Nathan Harris aka Derjyn
 */
@@ -17,6 +17,15 @@ footer    { order: 4; }
 header h2 { order: 5; }
 header h1 { order: 6; }
 
+.breaker { 
+  padding: 16px;
+  text-align: center;
+  line-height: 32px;
+}
+
+/*************************************************************************************************/
+/*** TYPOGRAPHY OVERRIDES ************************************************************************/
+
 header h1, header h2 {
   font-weight: bold;
   line-height: 64px;  
@@ -24,23 +33,14 @@ header h1, header h2 {
 }
 header h2 { min-width: 96px; }
 
-.breaker { 
-  padding: 16px;
-  text-align: center;
-  line-height: 32px;
-}
-
-
 /*************************************************************************************************/
 /*** THEME ***************************************************************************************/
 
-
-
-
-
-
-
-
+body      { background-color: rgb(74, 57, 54);    }
+.tendon   { background-color: rgb(144, 91, 80);   }
+.muscle   { background-color: rgb(170, 112, 108); }
+.skin     { background-color: rgb(229, 197, 176); }
+.freckle  { background-color: rgb(162,197,186);   }
 
 /*************************************************************************************************/
 /*** EOF *****************************************************************************************/
